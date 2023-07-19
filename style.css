@@ -1,0 +1,141 @@
+body{
+    font-family: sans-serif;
+    background:  #ccfff2;
+}
+
+#logo{
+   width: 100%;
+   margin:auto;
+   padding:auto;
+   padding-bottom: 20px;
+}
+
+.btn-group{
+   display: flex;
+   justify-content: center;
+}
+
+.btn-group .btn-submit{
+   width: 100%;
+   background-color: aqua;
+   border: none;
+   
+}
+.btn-group .btn-reset{
+   width: 100%;
+}
+
+#container{
+   width: 360px;
+   background: white;
+   margin:180px auto;
+   padding: 30px 20px;
+   border-radius: 8px;
+}
+
+input[type=text],
+input[type=password]
+input[type=okee]{
+   font-size: 15px;
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+   border: 2px solid #ccc;
+   -webkit-transition: 0.5s;
+   transition: 0.5s;
+   outline: none;
+   background-size: 30px;
+   background-position: 5px 5px;
+   background-repeat: no-repeat;
+   padding-left: 40px;
+   border-radius: 5px;
+}
+input[type=text]{
+   background-image: url('gambar/user.png');
+}
+input[type=password]{
+   background-image: url('gambar/password.png');
+}
+input[type=okee]{
+    background-image: url('gambar/okee.png');
+}
+       
+input[type=text]:focus,
+input[type=password]:focus
+input[type=okee] {
+   border: 2px solid #555;
+}
+
+input[type=submit],
+input[type=reset]{
+   font-size: 15px;
+   background: #009973;
+   color: white;
+   border: white 3px solid;
+   border-radius: 5px;
+   padding: 12px 20px;
+   cursor:pointer;
+   margin-top: 10px;
+}
+input[type=reset]{
+   background:  #999999;
+   margin: 5px;
+   width: 100%;
+   height: 100%;
+}
+.row {
+   display: flex;
+   justify-content: center; 
+   gap: 60px; 
+}
+
+.texthasil {
+   font-size: 42px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tomboldownload {
+   padding: 10px;
+   color: white;
+   background-color: aqua;
+   border: none;
+   font-size: 20px;
+   border-radius: 8px;
+   cursor: pointer;
+}
+.btn-group{
+   gap: 10px;
+}
+
+button[class=btn-submit]{
+   width: 10px;
+   height: 42px;
+   font-size: 15px;
+   color: white;
+   border-radius: 8px;
+   cursor: pointer;
+}
+button[class=btn-reset]{
+   width: 10px;
+   height: 42px;
+   font-size: 15px;
+   color: white;
+   border: none;
+   background-color: #999999;
+   border-radius: 8px;
+   cursor: pointer;
+}
+#result {
+   text-align: center;
+}
+#table {
+   height: 100px;
+   background-color: #eee8aa;
+   margin: 0 auto;
+   border: 5px solid #daa520;
+}
+table, th, td {
+   margin: auto;
+   text-align: center;
+   border: 1px solid black;
+}
