@@ -30,13 +30,13 @@ function calculateBMI() {
 							/ 10000)).toFixed(2);
 
 		if (bmi < 18.6) result.innerHTML =
-			`Under beratbadan : <span>${bmi}</span>`;
+			`Berat Badan di bawah rata-rata : <span>${bmi}</span>`;
 
 		else if (bmi >= 18.6 && bmi < 24.9)
 			result.innerHTML =
-				`Normal : <span>${bmi}</span>`;
+				`Berat Badan Normal : <span>${bmi}</span>`;
 
 		else result.innerHTML =
-			`Over beratbadan : <span>${bmi}</span>`;
+			`Berat Badan di atas rata-rata : <span>${bmi}</span>`;
 	}
 }
